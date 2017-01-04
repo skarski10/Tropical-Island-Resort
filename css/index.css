@@ -1,0 +1,51 @@
+#navcontainer ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#navcontainer ul li {
+  display: inline;
+}
+#navcontainer ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #036
+}
+#navcontainer ul li a:hover {
+  color: #fff;
+  background-color: #369;
+}
+
+body{
+  background: url("img/back patio.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+h2{
+
+}
+
+p{
+  color: white;
+  text-shadow: 2 px 2 px #000000;
+}
+
+a:active{
+  color: #d9d9d9;
+
+}
+
+a:visited{
+  color: #f7f76e;
+  font-family: Arial;
+}
